@@ -1,3 +1,16 @@
-.carousel-item{
-    background-color: black !important;
+.overly{
+    filter: brightness(30%);
 }
+
+@media only screen and (max-width: 767px) {
+  .row img{
+    width: 100%;
+    }
+    
+    .btn-hid{
+        display: none;
+    }
+    .icone{
+        margin-left: 100px;
+    }
+} 
